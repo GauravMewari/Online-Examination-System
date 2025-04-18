@@ -45,7 +45,7 @@ Auto-graded results
 
 ⚫ Lombok
 
-Spring Security (JWT Authentication) [Optional]
+⚫ Spring Security (JWT Authentication) [Optional]
 
 
 
