@@ -49,10 +49,11 @@ Spring Security (JWT Authentication) [Optional]
 
 
 
----
+
 
 # Project Structure
 
+---
 src/
 ├── main/
 │   ├── java/com/onlineexam/
@@ -64,7 +65,6 @@ src/
 │   └── resources/
 │       ├── application.properties
 │       └── data.sql (optional test data)
-
 
 ---
 
