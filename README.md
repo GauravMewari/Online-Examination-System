@@ -125,9 +125,4 @@ public class Submission {
 }
 ```
 
----
 
-Endpoints Example
-
-
----
