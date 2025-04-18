@@ -68,10 +68,10 @@ src/
 
 ---
 
-Entities
+# Entities
 
-User
-
+### User
+```
 @Entity
 
  public class User {
@@ -81,9 +81,9 @@ User
     private String password;
     private String role; // STUDENT or ADMIN
  }
-
-Exam
-
+```
+### Exam
+```
 @Entity
 public class Exam {
     @Id @GeneratedValue
@@ -92,9 +92,9 @@ public class Exam {
     private int durationMinutes;
     private LocalDateTime startTime;
 }
-
-Question
-
+```
+### Question
+```
 @Entity
 public class Question {
     @Id @GeneratedValue
@@ -106,9 +106,9 @@ public class Question {
     @ManyToOne
     private Exam exam;
 }
-
-Submission
-
+```
+### Submission
+```
 @Entity
 public class Submission {
     @Id @GeneratedValue
@@ -123,7 +123,7 @@ public class Submission {
     private int score;
     private LocalDateTime submittedAt;
 }
-
+```
 
 ---
 
