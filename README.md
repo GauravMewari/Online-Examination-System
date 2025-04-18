@@ -1,16 +1,16 @@
 # Online-Examination-System
 An API-based backend system that allows admins to manage exams, students, and questions. Students can register, log in, take exams, and view results.
 
-Modules & Features
+# Modules & Features
 
-1. User Authentication
+### 1. User Authentication
 
 Student & Admin roles
 
 JWT-based login system (optional but recommended)
 
 
-2. Admin Functionalities
+### 2. Admin Functionalities
 
 Create/edit/delete exams
 
@@ -19,7 +19,7 @@ Add/edit/delete questions
 View student performance
 
 
-3. Student Functionalities
+### 3. Student Functionalities
 
 Register/login
 
@@ -33,7 +33,7 @@ Auto-graded results
 
 ---
 
-Technology Stack
+# Technology Stack
 
 Java 17
 
@@ -51,7 +51,7 @@ Spring Security (JWT Authentication) [Optional]
 
 ---
 
-Project Structure
+# Project Structure
 
 src/
 ├── main/
@@ -73,13 +73,14 @@ Entities
 User
 
 @Entity
-public class User {
+
+ public class User {
     @Id @GeneratedValue
     private Long id;
     private String username;
     private String password;
     private String role; // STUDENT or ADMIN
-}
+ }
 
 Exam
 
