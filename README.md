@@ -35,15 +35,15 @@ Auto-graded results
 
 # Technology Stack
 
-Java 17
+⚫ Java 17
 
-Spring Boot 3
+⚫ Spring Boot 3
 
-Spring Data JPA (Hibernate)
+⚫ Spring Data JPA (Hibernate)
 
-MySQL
+⚫ MySQL
 
-Lombok
+⚫ Lombok
 
 Spring Security (JWT Authentication) [Optional]
 
